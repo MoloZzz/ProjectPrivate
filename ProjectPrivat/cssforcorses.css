@@ -2,6 +2,9 @@ h1{
   text-align: center;
 }
 
+
+
+
 .footer {
   position: fixed;
   left: 0;
@@ -17,15 +20,17 @@ padding-top: 0.7%;
 }
 
 .tfooter{
+  position: sticky;
+  top: 0;
   padding: 0;
   height:100px;
   width: 100%;
-  left: 0;
-  bottom: 0;
   background-color: rgb(48, 48, 48);
   color:rgba(255, 255, 255, 0.658);
   text-align: center;
+  position: top;
 }
+
 
 
 .menu ul {
@@ -80,13 +85,12 @@ padding-top: 0.7%;
          float:none; 
   }
   
+.infodeva:hover{
+  color:black;
+  }
 
-.infodeva{
-
-font-family: arial; 
-
-color:rgb(0, 0, 0); 
-
+.infodeva {
 text-decoration: none; 
-
+font-family: arial; 
 }
+

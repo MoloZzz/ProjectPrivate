@@ -1,0 +1,13 @@
+.footerGit{
+    text-decoration: none;
+  color:grey;
+  }
+  
+  #image{
+    height: 150px;
+    /* padding: -0.7%;  */
+    padding-left: 40%;
+    position: fixed; 
+    /* opacity: .9; */
+    
+    }
