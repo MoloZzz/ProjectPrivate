@@ -1,0 +1,75 @@
+h1{
+   text-align: center;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(48, 48, 48);
+   color: white;
+   text-align: center;
+}
+.tfooter p{
+padding-top: 0.7%;
+}
+.tfooter{
+   padding: 0;
+   height:100px;
+   width: 100%;
+   left: 0;
+   bottom: 0;
+   background-color: rgb(48, 48, 48);
+   color:rgba(255, 255, 255, 0.658);
+   text-align: center;
+}
+.newMenu{
+   position: fixed;
+   top:3%;
+   left: 25%; 
+   
+}
+.newMenu ul{
+   
+      list-style: none; /*убираем маркеры списка*/
+      margin: 0; /*убираем отступы*/
+      padding-left: 0; /*убираем отступы*/
+      
+}
+.newMenu a {
+   text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  color:black;
+}
+.newMenu a:hover{
+   color:rgba(255, 1, 1, 0.842);
+   font-size:110%;
+}
+.newMenu li {
+   
+   float:left; /*Размещаем список горизонтально для реализации меню*/
+   margin-right: 50px; /*Добавляем отступ у пунктов меню*/
+ }
+
+#navbar {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   width: 700px;
+ }
+ #navbar a {
+  background-color: #949491;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-left: 5px solid #33ADFF;
+  display: block;
+}
+#navbar li:hover{
+   width: 715px;
+   border-left: 6px solid #1e6594;
+}
+#navbar li {
+  border-left: 10px solid #666;
+  border-bottom: 1px solid #666;
+}
